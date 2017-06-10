@@ -2,18 +2,13 @@ import pandas as pd
 
 
 def equal_operator(ds1, ds2):
-    """
-    Enter your code here
-    """
-
+    ds_equal = (ds1 == ds2)
+    return ds_equal
 
 def greater_than_operator(ds1, ds2):
-    """
-    Enter your code here
-    """
-
+    ds_greater = (ds1 > ds2)
+    return ds_greater
 
 def less_than_operator(ds1, ds2):
-    """
-    Enter your code here
-    """
+    ds_lesser = (ds1 < ds2)
+    return ds_lesser
